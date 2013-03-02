@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface breadcrumbViewController : UIViewController
+@interface breadcrumbViewController : UIViewController <CLLocationManagerDelegate>
+- (IBAction)onoffToggle:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *location;
 
 @end

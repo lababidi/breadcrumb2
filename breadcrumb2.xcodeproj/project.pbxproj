@@ -23,6 +23,7 @@
 		8F8C259D16C8A6E900DE155D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8C257816C8A6E900DE155D /* Foundation.framework */; };
 		8F8C25A516C8A6E900DE155D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C25A316C8A6E900DE155D /* InfoPlist.strings */; };
 		8F8C25A816C8A6E900DE155D /* breadcrumb2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C25A716C8A6E900DE155D /* breadcrumb2Tests.m */; };
+		8F8C25B216C8AB0B00DE155D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8C25B116C8AB0B00DE155D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		8F8C25A416C8A6E900DE155D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F8C25A616C8A6E900DE155D /* breadcrumb2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = breadcrumb2Tests.h; sourceTree = "<group>"; };
 		8F8C25A716C8A6E900DE155D /* breadcrumb2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = breadcrumb2Tests.m; sourceTree = "<group>"; };
+		8F8C25B116C8AB0B00DE155D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8C25B216C8AB0B00DE155D /* CoreLocation.framework in Frameworks */,
 				8F8C257716C8A6E900DE155D /* UIKit.framework in Frameworks */,
 				8F8C257916C8A6E900DE155D /* Foundation.framework in Frameworks */,
 				8F8C257B16C8A6E900DE155D /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +90,7 @@
 		8F8C256716C8A6E900DE155D = {
 			isa = PBXGroup;
 			children = (
+				8F8C25B116C8AB0B00DE155D /* CoreLocation.framework */,
 				8F8C257C16C8A6E900DE155D /* breadcrumb2 */,
 				8F8C25A016C8A6E900DE155D /* breadcrumb2Tests */,
 				8F8C257516C8A6E900DE155D /* Frameworks */,
